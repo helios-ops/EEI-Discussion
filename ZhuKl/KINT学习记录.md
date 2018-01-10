@@ -89,7 +89,7 @@ Kint使用方法
 
     // 函数指针(IDs)到可能分配的映射\<string,FuncSet\>
 
-    FuncPtrMap FuncPtrs; 存储的是什么？指针别名？
+    FuncPtrMap FuncPtrs;存储的是指针别名？
 
     // 调用点到所有潜在被调指令的映射\<CallInst\*,FuncSet\>
 
