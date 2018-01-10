@@ -43,15 +43,15 @@ Kint使用方法
 
     GlobalContext {
 
-    // 全局函数名字到定义的映射\<StringRef,Function\*\>
+    // 全局函数名字到定义的映射<StringRef,Function *>
 
     FuncMap Funcs;
 
-    // 函数指针(IDs)到可能分配的映射\<string,FuncSet\>
+    // 函数指针(IDs)到可能分配的映射<string,FuncSet>
 
     FuncPtrMap FuncPtrs;
 
-    // 调用点到所有潜在被调指令的映射\<CallInst\*,FuncSet\>
+    // 调用点到所有潜在被调指令的映射<CallInst *,FuncSet>
 
     CalleeMap Callees;
 
@@ -59,7 +59,7 @@ Kint使用方法
 
     TaintMap Taints;
 
-    // 全局范围信息\<id, CRange\>
+    // 全局范围信息FF<id, CRange\>
 
     RangeMap IntRanges;
 
