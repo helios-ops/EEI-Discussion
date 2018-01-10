@@ -25,7 +25,7 @@ Kint使用方法
 主要包括两个方面内容IntGlobal和Intck。
 
 1.IntGlobal
-===========
+============
 
 定义了入口函数main，main函数主要实现了以下功能：
 
