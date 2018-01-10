@@ -93,7 +93,7 @@ Kint使用方法
 
     // 调用点到所有潜在被调指令的映射\<CallInst\*,FuncSet\>
 
-    CalleeMap Callees; 虽然定义的是函数集合，但实验中都是单个被调函数
+    CalleeMap Callees; 虽然定义的是函数集合，但实验中都是单个被调函数
 
 ·FuncPrtrs：
 
