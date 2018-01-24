@@ -3,7 +3,7 @@
 
 因为kint是2013年的工具，很久没更新，直接安装最新版本的llvm会导致兼容性问题，所以需要手动编译安装llvm-3.2。
 
-1. 安装llvm-3.2
+1 安装llvm-3.2
 ==================
 
 1 下载llvm所需文件
@@ -48,7 +48,7 @@ code, Clang source code, Compiler RT source code。
 
 \$ sudo make install
 
-2. 安装kint
+2 安装kint
 ==================
 
 1 下载kint源码
