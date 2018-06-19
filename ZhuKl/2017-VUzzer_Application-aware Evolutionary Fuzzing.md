@@ -85,7 +85,7 @@ hash(一篇论文)，使用buffer记录crash前的最后五个函数调用和是
 fuzzing”文章中使用的混合应用数据集，LAVA文章(Lava: Large-scale automated
 vulnerability addition)中使用的二进制集合。
 
-本文仅验证VUzzer相比于AFL识别深度bug的有效性，因为未做效率优化，所以不做效率对比。实验证明，发现可以使用更少的用例发现同样多的crash
+本文仅验证VUzzer相比于AFL识别深度bug的有效性，因为未做效率优化，所以不做效率对比。实验证明，发现可以使用更少的用例发现同样多的crash。
 
 6.相关工作
 ===========
